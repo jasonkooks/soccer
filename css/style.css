@@ -11,7 +11,7 @@ body {
   margin: 0;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  
+    
   /* Padding for top navbar fixed  */
   padding-top: 75px; 
 }
@@ -47,19 +47,38 @@ html {
 
   /* Jumbotron */
   .jumbotron{
-    background-image: url("../image/morningtree.jpg");
+    background-image: url("../image/epl.png");
     display: block;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    color: white;
+    color:black;
+    height: 100vh;
+    text-align: left; 
+    /* width: 100vw; */
+    /* max-height: auto; */
+     
+    /* min-height: 500px; */
   }
 
+  /* my-parallax{
+    height: 80vh;
+    background-image: url("epl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  } */
+  
+  .my-strong{color: blue;
+  }
+  
+  
   /* Box-sizing */
   .selector-for-some-widget {
-      box-sizing: content-box;
-  }
+      box-sizing: content-box;      
+    }
 
   /* LAYOUT - Responsive breakpoints */
   /* // Extra small devices (portrait phones, less than 576px) */
